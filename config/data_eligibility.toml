@@ -1,0 +1,8 @@
+[dataset]
+directory = "data/processed_2024_2025_retry"
+minimum_candles = 200
+timeframe = "1d"
+
+[corporate_action_exclusions]
+SIEMENS = "Exclude until the April 2025 demerger adjustment and resulting-share treatment are implemented."
+TMPV = "Exclude until the October 2025 demerger adjustment and resulting-share treatment are implemented."
