@@ -1,0 +1,30 @@
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.env
+.env.*
+!.env.example
+data/raw/*
+data/processed/*
+data/universe/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+!data/universe/.gitkeep
+reports/*
+logs/*
+
+# Extended historical datasets
+data/processed_*/
+data/processed_2024_2025/
+data/universe/nifty100_mapped.csv
+
+# Generated reports and logs
+reports/*
+logs/*
+
+# Generated Python package metadata
+*.egg-info/
+build/
+dist/

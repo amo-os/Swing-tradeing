@@ -1,0 +1,26 @@
+[project]
+name = "swing-trading-system"
+market = "India"
+universe = "NIFTY100"
+timeframe = "1d"
+execution_mode = "manual_only"
+
+[risk]
+risk_fraction = 0.005
+capital_inr = 0
+max_open_positions = 3
+
+[strategy]
+ema_trend_period = 50
+ema_regime_period = 200
+rsi_period = 14
+macd_fast = 12
+macd_slow = 26
+macd_signal = 9
+adx_period = 14
+atr_period = 14
+volume_period = 20
+
+[data]
+provider = "unconfigured"
+require_validated_data = true
